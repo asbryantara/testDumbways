@@ -1,0 +1,1 @@
+SELECT posts.title,users.username,comments.comment FROM `posts` JOIN users on posts.createdBy=users.id JOIN comments on comments.postId=posts.id WHERE posts.id ='".$id."'

@@ -1,0 +1,74 @@
+* { margin:0px; padding:0px;}
+@font-face { font-family:'FjallaOne-Regular';
+src:url(../fonts/FjallaOne-Regular.ttf);
+font-style:normal;}
+
+body { background-color: #F8F8F8; 
+	font-family:'FjallaOne-Regular', "Book Antiqua", Palatino, serif;
+	padding:80px 50px 0 50px;}
+.title { text-align:center; font-size:34px;
+		margin-top:-50px; margin-bottom:50px;}
+		
+.mkn_wrapper { 
+	border:1px solid #999;
+	width:300px; background-color:#FFF;
+	border-radius:3px;
+	margin:auto; }
+
+.mkn_wrapper .content {
+	padding-left: 10px;
+	line-height: 2;
+}
+
+input[type=text]{
+	width: 80%;
+	border:1px solid #333;
+	padding: 6px 5px;
+	margin: 0px auto 10px;
+	background-color: #FFF;
+	border-radius: 0px;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: #555;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; }
+
+textarea{
+	width: 80%;
+	border:1px solid #333;
+	padding: 6px 5px;
+	margin: 0px auto 10px;
+	background-color: #FFF;
+	border-radius: 0px;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: #555;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; }
+
+input[type=submit]{
+	color: #FFF; letter-spacing:1px; border: 2px solid transparent;
+	transition: all 0.3s ease-in-out 0s;display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-user-select: none;
+	background-image: none;
+	background-color: #E10707;}
+
+input[type=submit]:hover{ background-color:#333;}
+
+
+h1 { margin-bottom:20px; background-color:#E4E4E4; padding:5px; color:#333; letter-spacing:0.6px;}
+label { padding: 0px;
+		width: 100%;
+		display: block;
+		margin: 0px 0px 10px;
+		font-weight:lighter;
+	}
+
+span { color: #E10707; }
